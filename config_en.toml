@@ -1,0 +1,9 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-US"
+title = "Arduino Glossary"
+publishdir = "public/en"
+contentdir = "content/en"
+[taxonomies]
+  category = "categories"
+[params]
+    locale = "en-US"
