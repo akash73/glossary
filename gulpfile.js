@@ -20,7 +20,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('hugo', function () {
-    exec('hugo --config="config_en.toml" --baseURL="'+baseURL+'/en"');
+    exec('hugo --config="config_en.toml" --baseURL="'+baseUrl+'/en"');
 });
 
 gulp.task('watch', function () {
