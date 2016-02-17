@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://localhost:8000/en"
 languageCode = "en-US"
 title = "Arduino Glossary"
 publishdir = "public/en"

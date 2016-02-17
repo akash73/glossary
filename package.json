@@ -1,0 +1,27 @@
+{
+  "name": "glossary",
+  "version": "1.0.0",
+  "description": "Description of terms and word about Arduino and Electronics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arduino/glossary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arduino/glossary/issues"
+  },
+  "homepage": "https://github.com/arduino/glossary#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1"
+  }
+}
