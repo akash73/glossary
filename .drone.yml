@@ -12,7 +12,7 @@ publish:
         bucket: $$S3_BUCKET
         access_key: $$S3_ACCESS
         secret_key: $$S3_SECRET
-        source: dist
+        source: public
         delete: true
         when:
             branch: master
