@@ -1,0 +1,25 @@
+
+build:
+    image: node
+    commands:
+        - npm install -g gulp hugo-cli
+        - npm install -d
+        - gulp build
+publish:
+    s3_sync:
+        acl: public-read
+        region: "us-east-1"
+        bucket: $$S3_BUCKET
+        access_key: $$S3_ACCESS
+        secret_key: $$S3_SECRET
+        source: dist
+        delete: true
+        when:
+            branch: master
+notify:
+  slack:
+    webhook_url: $$SLACK_WEBHOOK
+    channel: $$SLACK_CHANNEL
+    username: drone
+    when:
+        branch: master

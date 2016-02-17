@@ -1,0 +1,6 @@
+environment:
+    S3_ACCESS: ""
+    S3_SECRET: ""
+    S3_BUCKET: ""
+    SLACK_WEBHOOK: ""
+    SLACK_CHANNEL: ""
