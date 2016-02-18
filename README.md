@@ -2,6 +2,12 @@
 
 Description of terms and word about Arduino and Electronics
 
+## Asciidoc reference
+
+if you want to contribute with new items please follow the Official AsciiDoc Documentation 
+http://asciidoc.org/userguide.html#_text_formatting
+
+
 ## Compiling
 
 Install Hugo https://gohugo.io/overview/installing/
